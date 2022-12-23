@@ -1,0 +1,46 @@
+.title{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: var(--padding-size);
+
+  background-color: var(--color-main);
+  background-image:url(./../images/bg-images/bg-title-mb.png);
+  background-repeat: no-repeat;
+  
+  background-position: center bottom;
+  background-size: cover;
+  
+
+  color: #ffffff;
+}
+.title__header{
+margin-top: calc(var(--padding-size)*2);
+}
+.title .btn{
+  align-self: center;
+  margin-top: auto;
+}
+.logo{
+  width: 50px;
+  height: 50px;
+}
+.title__article p{
+  margin-top: var(--padding-size);
+   font-weight: 700;
+}
+.title__article p+p{
+  margin-top: 0;
+}
+.title__heading{
+  margin-top: calc(var(--padding-size)*3);
+  line-height: 1.23em;
+}
+
+@media(min-width:568px){
+  .title{
+    min-height:700px;
+    /*обрежь рисунок!!*/
+    background-image:url(./../images/bg-images/bg-title-dt.png);
+  }
+}

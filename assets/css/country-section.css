@@ -1,0 +1,31 @@
+.countryList{
+  
+  background-image: url(./../images/bg-images/bg-contry-mb.png);
+  background-color:#f9f9f9;
+  color: #221112; 
+
+  text-align: center;
+}
+
+  .countryList__header h2{
+  color: var(--color-main);
+}
+.countryList__article__country picture{
+  box-shadow: 0px 82px 14px #c4c4c4;
+}
+.countryLinks{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+ 
+}
+.tagLink{
+  font-size: 12px;
+  border-radius: 70px;
+  margin:5px;
+  width: 86px;
+  height: 28px;
+  padding: var(--padding-size);
+  background-color: #EED7D8;
+  text-shadow: -5px 5px 4px #00000025;
+}

@@ -2,14 +2,14 @@
 .title{
   /* display: flex;
   flex-direction: column;
-  height: 100vh;
-  padding: var(--padding-size); */
+  height: 100vh; */
+  /* padding: var(--padding-size); */
   background-color: var(--color-main);
 
   background-image: url(./../images/bg-images/bg-title-mb.png);
   /* background-repeat: no-repeat;
   background-position: center bottom;
-  background-size: cover; */
+  background-size: cover;  */
 
   color: #FFFFFF;
 }
@@ -46,7 +46,7 @@
 @media (min-width: 992px){
   .title{
     min-height: 100vh;
-    
+
   }
   .title__header{
     margin-top: var(--padding-size);
@@ -55,7 +55,7 @@
   }
   .title__article{
     margin-left: calc(var(--padding-size)*23);
-    
+
   }
   .title__heading{
     font-size: 2.6rem;
@@ -68,12 +68,12 @@
 }
 
   .title__article p:first-of-type{
-    
+
     line-height: 2.2rem;
-   
+
   }
   .title__article p+p{
-    
+
     line-height: 1.75rem;
      }
 

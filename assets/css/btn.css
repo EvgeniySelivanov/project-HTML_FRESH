@@ -16,3 +16,10 @@
 .btn:hover{
   box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.4);
 }
+
+.btnRed{
+  background-color: var(--color-main);
+  color:#FFFFFF;
+  box-shadow:none;
+
+}

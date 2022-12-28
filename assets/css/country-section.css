@@ -25,7 +25,10 @@
   line-height: 1.67rem;
   color: var(--color-main);
   text-align: center;
-
+  
+}
+.countryList__article  .countryList__article__country + .countryList__article__country{
+margin-bottom: 70px;
 }
 .countryList__article__country{
   text-align: center;
@@ -141,7 +144,7 @@
     font-size:1.1rem;
     line-height:1.8rem ;
   }
-  span{
+  .countryLinks span{
     font-size: 0.7rem;
 
   }

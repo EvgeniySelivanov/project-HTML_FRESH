@@ -1,0 +1,21 @@
+.buyCertificate{
+  margin-top: 71px;
+  padding: var(--padding-size);
+  display: flex;
+  flex-direction: column;
+}
+.buyCertificate h3{
+  font-family:Montserrat Alternates;
+  font-weight: bold;
+  font-size: 1.375rem;
+}
+.buyCertificate h3 span{
+  color: var(--color-main);
+}
+.buyCertificate__article p{
+  margin-top: 43px;
+}
+.buyCertificate .btnRed{
+  margin-top: 54px;
+  align-self: center;
+}

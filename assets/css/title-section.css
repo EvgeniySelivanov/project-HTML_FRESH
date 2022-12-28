@@ -1,16 +1,18 @@
 
 .title{
-  /* display: flex;
+  display: flex;
   flex-direction: column;
-  height: 100vh; */
-  /* padding: var(--padding-size); */
-  background-color: var(--color-main);
 
-  background-image: url(./../images/bg-images/bg-title-mb.png);
-  /* background-repeat: no-repeat;
+  height: 100vh;
+  padding: var(--padding-size);
+  background-repeat: no-repeat;
   background-position: center bottom;
-  background-size: cover;  */
+  background-size: cover;
 
+
+  background-color: var(--color-main);
+  background-image: url(./../images/bg-images/bg-title-mb.png);
+ 
   color: #FFFFFF;
 }
 .title .btn{

@@ -16,10 +16,11 @@ a{
 .sections{
   display: flex;
   flex-direction: column;
+
   height: 100vh;
   padding: var(--padding-size);
   background-repeat: no-repeat;
-  background-position: center bottom;
+  
   background-size: cover;
 }
 h1,

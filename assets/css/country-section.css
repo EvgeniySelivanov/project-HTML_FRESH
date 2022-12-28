@@ -1,14 +1,21 @@
 .countryList{
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-image: url(./../images/bg-images/bg-country-mb.png);
   background-color:#f9f9f9;
-
+  background-position: center bottom;
   color: #221112; 
 
-  text-align: center;
-  margin-bottom: 70px;
+  padding: var(--padding-size);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* margin-bottom: 70px; */
 }
 
+.countryList__header{
+  text-align: center;
+}
   .countryList__header h2{
   margin-top: 41px;
   margin-bottom: 15px;
@@ -17,20 +24,29 @@
   font-size: 1.375rem;
   line-height: 1.67rem;
   color: var(--color-main);
+  text-align: center;
+
+}
+.countryList__article__country{
+  text-align: center;
 }
 .countryList__article p{
   margin-top: 25px;
   line-height: 1.62rem;
+  text-align: center;
 }
 
 .countryList__article__country picture{
+ 
   position: relative;
   box-shadow: 0px 81px 8px  #a8a7a7;
-  
+
   
 }
 .countryList__article__country img{
+  
   border-radius: 24px;
+  
 }
 .countryList__article__country picture::after,
 .countryList__article__country picture::before{
@@ -46,17 +62,18 @@
 }
 .countryList__article__country picture::after{
   content: url(.././images/sliderChevron/chevron-right.svg);
-right:1%;
+  right:1%;
 }
 .countryList__article__country picture::before{
   content: url(.././images/sliderChevron/chevron-left.svg);
-left: 1%;
+  left: 1%;
 }
 .countryList__article__country h3{
   font-family: Montserrat Alternates;
   font-size: 1.25rem;
   margin-top: 45px;
   margin-bottom: 25px;
+  text-align: center;
 }
 .countryLinks{
   margin-top: 19.91px;
@@ -82,18 +99,52 @@ left: 1%;
  
   .countryList{
     background-image: url(./../images/bg-images/bg-country-dt.png);
-  
-
+    
   }
-  .countryListContainer{
+  .wrapper{
     display: flex;
+    flex-direction: column;
     max-width: 929px;
- }
+    align-items: center;
+    
+  }
+  .countryList__header h2{
+    margin-top: 123px;
+    margin-bottom: -20px;
+    font-size: 3.1rem;
+    line-height:3.77rem;
+  }
   .countryList__article__country picture{
   box-shadow: 0px 221px 8px  #a8a7a7;
 
   }
+  .countryList__article p{
+    margin-top: 30px;
+    font-size: 1.1rem;
+    line-height: 1.75rem;
+   
+  }
+  .countryList__article__country h3{
+   
+    font-size: 2.1rem;
+    margin-top: 79px;
+    margin-bottom: 50px;
+    line-height: 2.56rem;
+  }
 
+.countryList__article__country picture::after,
+.countryList__article__country picture::before{
+   top: -25px;  
+}
+  .tagLink{
+    min-width: 96px;
+    font-size:1.1rem;
+    line-height:1.8rem ;
+  }
+  span{
+    font-size: 0.7rem;
+
+  }
   .noVisible{
     display: block;
   }

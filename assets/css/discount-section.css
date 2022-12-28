@@ -1,0 +1,51 @@
+.discount{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(./../images/bg-images/bg-discount-mb.png);
+  /* background-position: center bottom; */
+  color: #ffffff; 
+
+  padding: var(--padding-size);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.advertising h2{
+  margin-top: 327px;
+  font-size: 2rem;
+  line-height: 2.43rem;
+}
+.advertising p{
+  margin-top: var(--padding-size);
+
+  line-height: 1.75rem;
+  font-weight: 500;
+}
+.buyPresent{
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 51px;
+  background-color: #ffffff;
+  color:var(--color-black);
+  border-radius: 10px;
+  min-height: 310px;
+  min-width: 300px;
+ 
+}
+.buyPresent p:nth-child(1){
+  margin-top: 49px;
+  text-align: center;
+}
+.buyPresent p:nth-child(2){
+  margin-top: 29px;
+  line-height: 28px;
+  font-weight: 500;
+  text-align: center;
+  opacity: 0.6;
+}
+.buyPresent .btnRed{
+  margin-top: 32px;
+ align-self: center;
+}

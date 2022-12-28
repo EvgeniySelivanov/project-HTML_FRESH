@@ -18,6 +18,7 @@
 .buyCertificate .btnRed{
   margin-top: 54px;
   align-self: center;
+  margin-bottom: 80px;
 }
 @media (min-width: 992px){
   .buyCertificate{
@@ -43,6 +44,7 @@
   }
   .buyCertificate .btnRed{
     margin-top: 92px;
+    
     min-width: 370px;
     align-self:flex-start;
   }

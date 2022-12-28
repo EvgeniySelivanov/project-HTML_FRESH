@@ -61,8 +61,11 @@ margin-bottom: 70px;
   padding: 5px 8px;
   background-color: rgba(0, 0, 0, 0.2);
   border-radius: 6px;
+ 
   
 }
+
+
 .countryList__article__country picture::after{
   content: url(.././images/sliderChevron/chevron-right.svg);
   right:1%;
@@ -94,6 +97,14 @@ margin-bottom: 70px;
   padding: var(--padding-size);
   background-color: #EED7D8;
   text-shadow: -5px 5px 4px  #00000025;
+  transition: 0.6s;
+
+}
+.tagLink:hover{
+  background-color: #e0646a;
+  color: #f9f9f9;
+  transition: 0.6s;
+  transform: translateY(-0.4rem);
 }
 .noVisible{
   display: none;

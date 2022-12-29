@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   background-image: url(./../images/bg-images/bg-discount-mb.png);
-  /* background-position: center bottom; */
+ 
   color: #ffffff; 
 
   padding: var(--padding-size);
@@ -25,7 +25,6 @@
 .buyPresent{
   display: flex;
   flex-direction: column;
-
   margin-top: 51px;
   background-color: #ffffff;
   color:var(--color-black);
@@ -45,7 +44,53 @@
   text-align: center;
   opacity: 0.6;
 }
+.buyPresent p:nth-child(3){
+  display: none;
+}
 .buyPresent .btnRed{
   margin-top: 32px;
- align-self: center;
+  align-self: center;
+}
+@media (min-width: 992px){
+  .discount{
+    background-image: url(./../images/bg-images/bg-discount-dt.png);
+    display: block;
+    background-size: cover;
+  }
+  .advertising,.buyPresent{
+    margin-left: 55%;
+    
+  }
+  .advertising{
+
+    max-width: 570px;
+  }
+  .advertising h2{
+    font-size: 2.6rem;
+    margin-top: 140px;
+  }
+  .buyPresent{
+    min-height: 328px;
+    min-width: 569px;
+    max-width: 570px;
+    margin-bottom: 129px; 
+  }
+  .buyPresent p:nth-child(2){
+    display: none;
+  }
+  .buyPresent p:nth-child(3){
+    display: block;
+    margin-top: 29px;
+    line-height: 28px;
+    font-weight: 500;
+    text-align: center;
+    opacity: 0.6; 
+  }
+  .buyPresent strong{
+  
+    line-height: 55px;
+  }
+  .buyPresent .btnRed{
+    min-width: 312px;
+  }
 }

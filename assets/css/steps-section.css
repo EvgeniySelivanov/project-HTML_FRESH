@@ -53,7 +53,7 @@ flex-direction: column;
 }
 .wrapper__steps a{
   margin-top: 20px;
-  
+  margin-bottom: 70px;
   min-width: 300px;
   align-self: center;
 }
@@ -84,6 +84,7 @@ flex-direction: column;
     flex-direction: column;
 
   }
+ 
   .step{
     flex-direction: row;
     align-items: start;

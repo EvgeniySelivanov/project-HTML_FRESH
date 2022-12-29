@@ -1,0 +1,119 @@
+.steps{
+  padding: var(--padding-size);
+}
+.wrapper__steps{
+display: flex;
+flex-direction: column;
+/* height: 100vh;
+padding: var(--padding-size); */
+}
+.step{
+  border: 4px;
+  border-color: #EED7D8;
+  border-style: dashed;
+  border-radius: 30px;
+  margin-bottom: 40px;
+}
+.steps__head h2{
+  text-align: center;
+  font-size:1.375rem ;
+  margin-top: 60px;
+}
+.steps__head p{
+  text-align: center;
+  margin-top: 9px;
+  margin-bottom: 50px;
+  line-height:1.625rem ;
+}
+.step{
+
+height: 100%;
+display: flex;
+flex-direction: column;
+
+}
+.step img{
+  margin-top: 10px;
+  margin-left: -10px;
+}
+.step div h3{
+  margin-top: -40px;
+  margin-left: 30px;
+  font-weight: bold;
+  font-size: 1.25rem;
+  line-height: 2.18rem;
+}
+.step div p{
+  margin-left: 30px;
+  margin-right: 15px;
+  margin-bottom: 53px;
+  opacity: 0.8;
+  line-height: 1.625;
+  
+}
+.wrapper__steps a{
+  margin-top: 20px;
+  
+  min-width: 300px;
+  align-self: center;
+}
+@media (min-width: 992px){
+  .steps__head h2{
+    margin-top: 118px;
+    font-size: 2.6rem;
+    line-height:3.16rem ;
+  }
+  .steps__head p{
+    text-align: center;
+    margin-top: 14px;
+    
+    line-height:1.625rem ;
+  }
+  .steps{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(./../images/bg-images/bg-steps-dt.png);
+    background-position: left 20% top 70%;
+    background-repeat: no-repeat;
+    
+  }
+  .wrapper__steps{
+    max-width: 1170px;
+    display: flex;
+    flex-direction: column;
+
+  }
+  .step{
+    flex-direction: row;
+    align-items: start;
+  }
+  .step img ,
+  .step div h3{
+    margin-top: 60px;
+  }
+  .step img {
+    border-radius: 24px;
+    box-shadow: 0px 25px 35px rgb(237, 28, 36,0.6);
+    margin-left:70px;
+    
+    margin-bottom: 60px;
+  }
+  .step div h3,
+  .step div p{
+    margin-left:58px;
+  }
+  .step div h3{
+   
+    
+    font-weight: bold;
+    font-size: 1.25rem;
+    line-height: 2.18rem;
+  }
+  .step div p{
+    
+    opacity: 0.8;
+    line-height: 1.625;
+    
+  }
+}

@@ -31,3 +31,40 @@ hr{
   font-size: 0.75rem;
   line-height: 2.93rem;
 }
+@media (min-width:992px){
+  .footer{
+    flex-direction: row;
+
+    flex-wrap:wrap;
+    
+  }
+  .footer__head,
+  .footer__call{
+    flex-basis: 50%;
+    text-align: left;
+  }
+  .footer__head h1{
+    font-size:3.15rem ;
+    line-height: 4.9rem;
+  }
+  .footer__head p{
+    font-size: 1.3rem;
+    line-height: 2.35;
+  }
+  .footer__head{
+    padding-left: 375px;
+    margin-top:122px ;
+  }
+  .footer__call{
+    margin-top: 142px;
+    margin-bottom: 66px;
+    padding-left: 65px;
+    font-size: 52px;
+
+  }
+  .footer__down{
+    padding-left: 375px;
+    font-size: 16px;
+    line-height: 47px;
+  }
+}

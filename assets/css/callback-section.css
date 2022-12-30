@@ -25,6 +25,8 @@
   width: 300px;
   border: none;
   border-radius:70px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 ::placeholder{
   padding: var(--padding-size);

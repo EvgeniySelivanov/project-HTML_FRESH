@@ -1,0 +1,22 @@
+.pageThanksTitle{
+  background-image: url(./../images/bg-images/bg-thanks-mb.png);
+  background-position: right 0% top 0px;
+  height: 100%;
+}
+.pageThanksTitle h1{
+  font-size: 36px;
+}
+.pageThanksTitle p{
+  width: 266px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.pageThanksTitle p+p{
+  line-height: 34px;
+  font-weight: 600;
+}
+.pageThanksTitle .btn{
+  min-width: 300px;
+  margin-top: 53px;
+  margin-bottom: 40px;
+}

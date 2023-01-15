@@ -19,6 +19,12 @@
   line-height: 1.625rem;
   margin-bottom: 46px;
 }
+.form{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
 .form input{
   margin-bottom: 30px;
   height: 50px;
@@ -48,7 +54,7 @@
     }
     .callback__head h2{
       margin-top: 147px;
-      margin-left: 365px;
+      margin-left: 19%;
       max-width: 568px;
       font-size:2.6rem;
       line-height:3.16rem ;
@@ -58,13 +64,14 @@
       line-height: 1.75rem;
       margin-bottom: 46px;
       max-width: 568px;
-      margin-left: 365px;
+      margin-left: 19%;
     }
     .form{
-      margin-top:        99px;
-      margin-left: 365px;
+      margin-top:99px;
+      margin-left: 19%;
       display: flex;
       flex-direction: row;
+      flex-wrap: wrap;
     }
     input{
       min-height: 80px;

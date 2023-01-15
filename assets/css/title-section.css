@@ -57,6 +57,8 @@
   }
   .title__article{
     margin-left: calc(var(--padding-size)*23);
+    margin-left: 19%;
+
 
   }
   .title__heading{

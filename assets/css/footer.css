@@ -34,7 +34,6 @@ hr{
 @media (min-width:992px){
   .footer{
     flex-direction: row;
-
     flex-wrap:wrap;
     
   }
@@ -52,19 +51,26 @@ hr{
     line-height: 2.35;
   }
   .footer__head{
-    padding-left: 375px;
+    padding-left: 2%;
     margin-top:122px ;
   }
   .footer__call{
-    margin-top: 142px;
-    margin-bottom: 66px;
-    padding-left: 65px;
+    margin-top:122px ;
+    
     font-size: 52px;
 
   }
   .footer__down{
-    padding-left: 375px;
+    padding-left: 19%;
     font-size: 16px;
     line-height: 47px;
+  }
+}
+@media (min-width:1150px){
+  .footer__head{padding-left: 19%;}
+  .footer__call{
+    margin-top: 142px; 
+    margin-bottom: 66px; 
+    padding-left: 65px;
   }
 }

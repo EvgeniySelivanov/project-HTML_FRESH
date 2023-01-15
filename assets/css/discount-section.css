@@ -51,7 +51,28 @@
   margin-top: 32px;
   align-self: center;
 }
+@media(min-width: 576px){
+  .advertising h2{
+    margin-top: 27px;
+   
+  }
+  .advertising{
+    max-width: 50%;
+   
+  }
+  .chameleon{
+    color: rgb(37, 23, 6);
+  }
+}
+@media (min-width: 800px){
+  .chameleon{
+    color: #ffffff;
+  }
+}
 @media (min-width: 992px){
+  .chameleon{
+    color: rgb(37, 23, 6);
+  }
   .discount{
     background-image: url(./../images/bg-images/bg-discount-dt.png);
     display: block;
@@ -93,3 +114,7 @@
     min-width: 312px;
   }
 }
+@media (min-width: 1400px){
+  .chameleon{
+    color: #ffffff;
+  }}
